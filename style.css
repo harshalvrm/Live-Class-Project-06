@@ -31,14 +31,14 @@
 
 #navMid h4 {
     margin: 0 40px;
+    text-decoration:none;
+    text-underline-offset: 0.2rem;
 }
 
-/* #navMid h4 : hover{
-    text-underline-offset: 10px;
+#navMid h4:hover {
     text-decoration: underline;
-    cursor: grab;
-} */
-
+    cursor: pointer;
+ }
 
 /* End Section of Nav */
 #navEnd{
@@ -60,7 +60,6 @@ margin-left: 50px;
 }
 
 #midWholePart11{
-    position:relative;
     width: 800px;
 }
 
@@ -78,45 +77,74 @@ border-color: red;
 
 
 #midWholePart12 div {
-    display: inline-block;    
-    font-size: 10px;
-        
+    display: inline-block; 
+         
         
 }
 
 
 /* Discover button with greater than */
 #midWholePart121 {
-    height: 70px; 
+   
+    height: 40px; 
     float: left;
-    /* to be set after the > sign */
     background-color: #418446;
     border-radius: 22px;
-    color: #fff;
-    margin-right: 1500px;
-    margin-top: 25px;
     margin: 10px;
-   padding: 5px;
+    padding: 5px;
+    margin-top: 60px;
+
 }
 
-/* This Css is used to bring Discover and '>' sign in a single line. Spent more than 3 hours to solve the bug. */
+/* Targets Discovery*/
+#midWholePart122 {
+    width: 50px;
+    text-align: center;
+    margin-bottom: 2.5px;
+}
+
+
+/* To change the size of arrow symbol (svg image) after Discover.
+#*/
+#midWholePart122 img{
+    width: 10px;
+    margin-right: 30px ;
+    } 
+
+
+/* This Css is used to bring Discover and '>' sign in a single line. Spent more than 3 hours to solve the bug. Plus used to both at the center of a button. */
 #midWholePart121 div{
-    display:inline-block;
+    position: relative;
+    display:inline-block;  
+    font-size: 10px;
+    color: #fff;
+    margin-top:3px ;
+    left: 18px;
+    margin-top: 6px;
+    
 }
 
-
-
+/* All the items below Disovery The last part of the webpage*/
 #midWholePart13 div {
+    position: relative;
     display: inline-block;
-    overflow: hidden;    
+    overflow: hidden;
+    margin-top:20px;
+    
 }
 
-#midWholePart13Parts{
+#midWholePart13Parts {
     float: left;
+    text-align: center;
+    margin
 }
 
-.text{
-      width: 250px;
+.text {
+    height: 40px;
+    position: relative;
+    width: 200px;
+    font-size: 10px;
+ 
 }
 
 #midWhole{
