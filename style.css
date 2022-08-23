@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Allerta','Abel';
+    overflow: hidden;
 }
+
+/* -------------------Nav section--------------------- */
 
 #navbarMonstera div{
     display: inline-block;
@@ -13,34 +16,108 @@
 
 /* Logo style */
 #navFirst{
-    height: 35px;
+    position: relative;
+    height: 45px;
     padding: 10px 20px;
-    margin: 10px 20px;
-
+    top: 10px;
+    left: 20px;
 }
 
 /* Mid Section of Nav */
 #navMid {
-margin-left: 90px;
+    position: absolute;
+    margin-left: 90px;
 }
 
 #navMid h4 {
-margin: 0 50px;
+    margin: 0 40px;
 }
+
+/* #navMid h4 : hover{
+    text-underline-offset: 10px;
+    text-decoration: underline;
+    cursor: grab;
+} */
+
 
 /* End Section of Nav */
 #navEnd{
-    float: right;
-    margin: 30px 50px 0 0;
+    position: absolute;
+    top: 15px;
+    left: 180px;
+
+}
+
+#navEnd img{
+    padding: 5px;
 }
 
 
-#midWholePart13 div{
+/* -------------------Mid section--------------------- */
+
+#midWhole{
+margin-left: 50px;
+}
+
+#midWholePart11{
+    position:relative;
+    width: 800px;
+}
+
+#monstera {
+    font-family: 'Allerta';
+    margin-top: 50px;
+    font-size: 100px;
+    font-weight:bolder;
+    letter-spacing: 4px;
+    margin-left: 15px;
+    
+}
+
+border-color: red;
+
+
+#midWholePart12 div {
+    display: inline-block;    
+    font-size: 10px;
+        
+        
+}
+
+
+/* Discover button with greater than */
+#midWholePart121 {
+    height: 70px; 
+    float: left;
+    /* to be set after the > sign */
+    background-color: #418446;
+    border-radius: 22px;
+    color: #fff;
+    margin-right: 1500px;
+    margin-top: 25px;
+    margin: 10px;
+   padding: 5px;
+}
+
+/* This Css is used to bring Discover and '>' sign in a single line. Spent more than 3 hours to solve the bug. */
+#midWholePart121 div{
+    display:inline-block;
+}
+
+
+
+#midWholePart13 div {
     display: inline-block;
-    overflow: hidden;
-    width: 100%;
+    overflow: hidden;    
 }
 
+#midWholePart13Parts{
+    float: left;
+}
+
+.text{
+      width: 250px;
+}
 
 #midWhole{
     float: left;
@@ -55,7 +132,4 @@ margin: 0 50px;
 
 }
 
-#midWholePart1 div{
-    display: inline-block;
-}
 
