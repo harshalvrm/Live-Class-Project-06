@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Allerta','Abel';
+}
+
+#navbarMonstera div{
+    display: inline-block;
+    position: relative;
+    margin: 20 px 5px;
+    padding: 5px;
+}
+
+/* Logo style */
+#navFirst{
+    height: 35px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+
+}
+
+/* Mid Section of Nav */
+#navMid {
+margin-left: 90px;
+}
+
+#navMid h4 {
+margin: 0 50px;
+}
+
+/* End Section of Nav */
+#navEnd{
+    float: right;
+    margin: 30px 50px 0 0;
+}
+
+
+#midWholePart13 div{
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+#midWhole{
+    float: left;
+}
+
+/* Flower image */
+#imgMain{
+    position: absolute;
+    width: 420px;
+    margin-top:-450px;
+    margin-left: 930px;
+
+}
+
+#midWholePart1 div{
+    display: inline-block;
+}
+
